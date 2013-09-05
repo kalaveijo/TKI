@@ -1,0 +1,119 @@
+Wed, 28 Nov 2012 20:38:01 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 20:38:01'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO project()
+		VALUES () 
+Wed, 28 Nov 2012 20:42:13 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 20:42:13'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO project()
+		VALUES () 
+Wed, 28 Nov 2012 21:36:15 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 21:36:15'
+		WHERE
+		valid_endtime IS NULL AND id=2;
+		
+		INSERT INTO project()
+		VALUES () 
+Wed, 28 Nov 2012 21:36:15 +0100 UPDATE
+							contract_in_project
+							SET
+							project_vst = '2012-11-28 21:36:15'
+							WHERE
+							project_id = 2;UPDATE
+							document_in_project
+							SET
+							project_vst = '2012-11-28 21:36:15'
+							WHERE
+							project_id = 2;UPDATE
+							externalstakeholder_in_project
+							SET
+							project_vst = '2012-11-28 21:36:15'
+							WHERE
+							project_id = 2;UPDATE
+							funding_in_project
+							SET
+							project_vst = '2012-11-28 21:36:15'
+							WHERE
+							project_id = 2;UPDATE
+							projectpartner_in_project
+							SET
+							project_vst = '2012-11-28 21:36:15'
+							WHERE
+							project_id = 2;UPDATE
+							researchpermit_in_project
+							SET
+							project_vst = '2012-11-28 21:36:15'
+							WHERE
+							project_id = 2;
+Wed, 28 Nov 2012 21:41:25 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 21:41:25'
+		WHERE
+		valid_endtime IS NULL AND id=4;
+		
+		INSERT INTO project()
+		VALUES () 
+Wed, 28 Nov 2012 22:55:06 +0200 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 22:55:05'
+		WHERE
+		valid_endtime IS NULL AND id=5;
+		
+		INSERT INTO project()
+		VALUES () 
+Wed, 28 Nov 2012 22:56:55 +0200 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 22:56:55'
+		WHERE
+		valid_endtime IS NULL AND id=5;
+		
+		INSERT INTO project()
+		VALUES () 
+Wed, 28 Nov 2012 23:03:01 +0200 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 23:03:01'
+		WHERE
+		valid_endtime IS NULL AND id=5;
+		
+		INSERT INTO project(identifier, diary_number, projectcode, project_name, acronym, focuse_areas, metropolia_coordinator, degree_program_related, start_day, end_day, inspector, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, user_id)
+		VALUES ("hoqummetoeywfj", "bjafevnxnsex", "sdgsdgkzzhcqcdvjr", "flwksxjl", "ccraskoidlsvdbuf", "jxyltmefgikd", "rttgc", "vnzhonmxg", "", "", "", "", "", "", "", "", "") 
+Wed, 28 Nov 2012 22:07:22 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 22:07:22'
+		WHERE
+		valid_endtime IS NULL AND id=9;
+		
+		INSERT INTO project(identifier, diary_number, projectcode, project_name, acronym, focuse_areas, metropolia_coordinator, degree_program_related, start_day, end_day, inspector, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, user_id, id, valid_starttime, valid_endtime, user_vst)
+		VALUES ("ftyijl", "xh", "cyvylbvxgo", "TESTIPROJU", "xryenjgogqcx", "nokhbeftcyjggonljvneel", "doxqemvrfhdzyu", "otipgitfv", "", "", "", "", "", "", "", "", "", 9, "2012-11-28 22:07:22", null, null) 
+Wed, 28 Nov 2012 22:13:16 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 22:13:15'
+		WHERE
+		valid_endtime IS NULL AND id=10;
+		
+		INSERT INTO project(identifier, diary_number, projectcode, project_name, acronym, focuse_areas, metropolia_coordinator, degree_program_related, start_day, end_day, inspector, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, user_id, id, valid_starttime, valid_endtime, user_vst)
+		VALUES ("qotgz", "pfpckhjwikpabhbhkr", "wvaqxsm", "MOAR", "bbzwupnao", "ctglmqb", "hivhbwrnz", "jgygvjcnizpq", "", "", "", "", "", "", "", "", "", 10, "2012-11-28 22:13:15", null, null) 
+Wed, 28 Nov 2012 23:15:00 +0200 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 23:14:57'
+		WHERE
+		valid_endtime IS NULL AND id=10;
+		
+		INSERT INTO project(identifier, diary_number, projectcode, project_name, acronym, focuse_areas, metropolia_coordinator, degree_program_related, start_day, end_day, inspector, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, user_id)
+		VALUES ("qotgz", "pfpckhjwikpabhbhkr", "wvaqxsm", "MOAR", "bbzwupnao", "ctglmqb", "hivhbwrnz", "jgygvjcnizpq", "", "", "", "", "", "", "", "", "") 
+Wed, 28 Nov 2012 22:22:20 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-28 22:22:20'
+		WHERE
+		valid_endtime IS NULL AND id=10;
+		
+		INSERT INTO project(id, identifier, diary_number, projectcode, project_name, acronym, focuse_areas, metropolia_coordinator, degree_program_related, start_day, end_day, inspector, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, valid_starttime, valid_endtime, user_id)
+		VALUES (10, "qotgz", "pfpckhjwikpabhbhkr", "wvaqxsm", "MOAR", "bbzwupnao", "ctglmqb", "hivhbwrnz", "jgygvjcnizpq", "", "", "", "", "", "", "", "", "") 

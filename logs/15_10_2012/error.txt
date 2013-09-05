@@ -1,0 +1,5 @@
+Mon, 15 Oct 2012 18:27:42 +0200 exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'valid_starttime1' in 'field list'' in C:\xampp\htdocs\TKI\common\dbFunctions.php:171
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(171): PDO->exec('????INSERT INTO...')
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(9): joinTables(Object(PDO), 'projekti', 1, 'lisainfo', 1)
+#2 {main}

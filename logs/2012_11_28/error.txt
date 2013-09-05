@@ -1,0 +1,152 @@
+Wed, 28 Nov 2012 20:38:01 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', 1, '2012-11-28 20:3...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(20): updateEntry(Object(PDO), Object(PDO), 'project', 1, Array)
+#3 {main}
+Wed, 28 Nov 2012 20:42:13 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', 1, '2012-11-28 20:4...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(20): updateEntry(Object(PDO), Object(PDO), 'project', 1, Array)
+#3 {main}
+Wed, 28 Nov 2012 21:05:02 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in C:\xampp\htdocs\TKI\common\dbFunctions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(423): PDO->query('SELECT???????*?...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(84): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), NULL, NULL, Array)
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(24): updateEntry(Object(PDO), Object(PDO), NULL, NULL, Array)
+#3 {main}
+Wed, 28 Nov 2012 21:05:02 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+		valid_endtime = '2012-11-28 21:05:02'
+		WHERE
+		valid_endtime IS NULL A' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(100): PDO->exec('????UPDATE  SET...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(24): updateEntry(Object(PDO), Object(PDO), NULL, NULL, Array)
+#2 {main}
+Wed, 28 Nov 2012 21:07:14 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in C:\xampp\htdocs\TKI\common\dbFunctions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(423): PDO->query('SELECT???????*?...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(84): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), NULL, NULL, Array)
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(24): updateEntry(Object(PDO), Object(PDO), NULL, NULL, Array)
+#3 {main}
+Wed, 28 Nov 2012 21:07:14 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+		valid_endtime = '2012-11-28 21:07:14'
+		WHERE
+		valid_endtime IS NULL A' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(100): PDO->exec('????UPDATE  SET...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(24): updateEntry(Object(PDO), Object(PDO), NULL, NULL, Array)
+#2 {main}
+Wed, 28 Nov 2012 21:10:33 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in C:\xampp\htdocs\TKI\common\dbFunctions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(423): PDO->query('SELECT???????*?...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(84): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), NULL, NULL, Array)
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, NULL, Array)
+#3 {main}
+Wed, 28 Nov 2012 21:10:33 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+		valid_endtime = '2012-11-28 21:10:33'
+		WHERE
+		valid_endtime IS NULL A' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(100): PDO->exec('????UPDATE  SET...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, NULL, Array)
+#2 {main}
+Wed, 28 Nov 2012 21:15:23 +0100 exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tki.table1' doesn't exist' in C:\xampp\htdocs\TKI\common\dbFunctions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(423): PDO->query('SELECT???????*?...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(84): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#3 {main}
+Wed, 28 Nov 2012 21:15:23 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+		valid_endtime = '2012-11-28 21:15:23'
+		WHERE
+		valid_endtime IS NULL A' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(100): PDO->exec('????UPDATE  SET...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 {main}
+Wed, 28 Nov 2012 21:16:18 +0100 exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tki.table1' doesn't exist' in C:\xampp\htdocs\TKI\common\dbFunctions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(423): PDO->query('SELECT???????*?...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(84): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#3 {main}
+Wed, 28 Nov 2012 21:16:18 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+		valid_endtime = '2012-11-28 21:16:18'
+		WHERE
+		valid_endtime IS NULL A' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(100): PDO->exec('????UPDATE  SET...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 {main}
+Wed, 28 Nov 2012 21:31:03 +0100 exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tki.table1' doesn't exist' in C:\xampp\htdocs\TKI\common\dbFunctions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(423): PDO->query('SELECT???????*?...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(84): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#3 {main}
+Wed, 28 Nov 2012 21:31:03 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+		valid_endtime = '2012-11-28 21:31:03'
+		WHERE
+		valid_endtime IS NULL A' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(100): PDO->exec('????UPDATE  SET...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 {main}
+Wed, 28 Nov 2012 21:31:19 +0100 exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tki.table1' doesn't exist' in C:\xampp\htdocs\TKI\common\dbFunctions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(423): PDO->query('SELECT???????*?...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(84): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#3 {main}
+Wed, 28 Nov 2012 21:31:19 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+		valid_endtime = '2012-11-28 21:31:19'
+		WHERE
+		valid_endtime IS NULL A' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(100): PDO->exec('????UPDATE  SET...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), NULL, '2', Array)
+#2 {main}
+Wed, 28 Nov 2012 21:41:25 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '4', '2012-11-28 21:4...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '4', Array)
+#3 {main}
+Wed, 28 Nov 2012 22:55:06 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '5', '2012-11-28 22:5...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '5', Array)
+#3 {main}
+Wed, 28 Nov 2012 22:56:55 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '5', '2012-11-28 22:5...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '5', Array)
+#3 {main}
+Wed, 28 Nov 2012 23:03:01 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '5', '2012-11-28 23:0...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '5', Array)
+#3 {main}
+Wed, 28 Nov 2012 22:07:22 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '9', '2012-11-28 22:0...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '9', Array)
+#3 {main}
+Wed, 28 Nov 2012 22:13:16 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '10', '2012-11-28 22:1...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '10', Array)
+#3 {main}
+Wed, 28 Nov 2012 22:22:20 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '10', '2012-11-28 22:2...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '10', Array)
+#3 {main}

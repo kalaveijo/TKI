@@ -1,0 +1,24 @@
+Tue, 30 Oct 2012 17:23:46 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-10-30 17:23:46'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO project(identifier, degree_program_related, inspector, metropolia_coordinator, 'id', 'identifier', 'diary_number', 'projectcode', 'project_name', 'acronym', 'focuse_areas', 'metropolia_coordinator', 'degree_program_related', 'start_day', 'end_day', 'inspector', 'inspected_day', 'funding_application', 'funding_application_signed_day', 'deniend_application', 'targeted_budget', 'offer', 'invitation_to_tender', 'invention_announcement', 'ethical_estimates_on', 'general_project_information', 'valid_starttime', 'valid_endtime', 'user_id', 'user_vst')
+		VALUES ("herpderp", "Media engineering", "Turbo", "joonas", 1, null, null, null, "Alustaja", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "2012-10-30 17:23:46", null, null, null) 
+Tue, 30 Oct 2012 18:25:56 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-10-30 18:25:56'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO project(identifier, degree_program_related, inspector, metropolia_coordinator, id, diary_number, projectcode, project_name, acronym, focuse_areas, start_day, end_day, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, valid_starttime, valid_endtime, user_id, user_vst)
+		VALUES ("herpderp", "Media engineering", "Turbo", "joonas", 1, null, null, "Alustaja", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "2012-10-30 17:23:46", null, null, null) 
+Tue, 30 Oct 2012 18:35:09 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-10-30 18:35:09'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO project(identifier, degree_program_related, inspector, metropolia_coordinator, id, diary_number, projectcode, project_name, acronym, focuse_areas, start_day, end_day, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, valid_starttime, valid_endtime, user_id, user_vst)
+		VALUES ("herpderp", "Media engineering", "Turbo", "KREIKKALAINEN NEEKERI", 1, null, null, "Alustaja", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "2012-10-30 18:35:09", null, null, null) 

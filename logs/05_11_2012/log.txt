@@ -1,0 +1,49 @@
+Mon, 05 Nov 2012 16:13:20 +0100 UPDATE 
+					projectpartner_in_project
+					SET 
+					project_vst = '2012-10-30 18:35:09',
+					projectpartner_vst = '2012-10-23 17:50:11'
+					WHERE
+					project_id = 1 AND
+					projectpartner_id = 1
+Mon, 05 Nov 2012 18:45:24 +0100 INSERT INTO project(id, valid_starttime, project_name)
+		VALUES (2, "2012-11-05 18:45:24", "tauhkaa") 
+Mon, 05 Nov 2012 18:45:24 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (3, "2012-11-05 18:45:24", "IT engineering", "eero", "ville") 
+Mon, 05 Nov 2012 18:53:36 +0100 INSERT INTO project(id, valid_starttime, project_name)
+		VALUES (3, "2012-11-05 18:53:36", "Kekkonene") 
+Mon, 05 Nov 2012 18:53:36 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (4, "2012-11-05 18:53:36", "hippiteknologia", "Lauri", "Maarit") 
+Mon, 05 Nov 2012 18:54:38 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 3, '2012-10-30 18:35:09', '2012-11-05 18:45:24')
+Mon, 05 Nov 2012 18:54:50 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (2, 1, '2012-11-05 18:45:24', '2012-10-23 17:50:11')
+Mon, 05 Nov 2012 18:54:59 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (2, 3, '2012-11-05 18:45:24', '2012-11-05 18:45:24')
+Mon, 05 Nov 2012 19:00:15 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-05 19:00:15'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO project(identifier, degree_program_related, inspector, metropolia_coordinator, id, diary_number, projectcode, project_name, acronym, focuse_areas, start_day, end_day, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, valid_starttime, valid_endtime, user_id, user_vst)
+		VALUES ("jeesuskristus", "Örörör", "Matti", "afrikkalainen neekeri", 1, null, null, "Alustaja", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "2012-11-05 19:00:15", null, null, null) 
+Mon, 05 Nov 2012 19:00:15 +0100 UPDATE 
+					projectpartner_in_project
+					SET 
+					project_vst = '2012-11-05 18:45:24',
+					projectpartner_vst = '2012-11-05 18:45:24'
+					WHERE
+					project_id = 2 AND
+					projectpartner_id = 3
+Mon, 05 Nov 2012 19:03:01 +0100 UPDATE 
+					projectpartner_in_project
+					SET 
+					project_vst = '2012-11-05 19:00:15',
+					projectpartner_vst = '2012-11-05 18:45:24'
+					WHERE
+					project_id = 1 AND
+					projectpartner_id = 3

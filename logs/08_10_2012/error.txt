@@ -1,0 +1,6 @@
+Mon, 08 Oct 2012 16:29:26 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 iteraatio, 2012-10-08 16:29:26
+		)' at line 4' in C:\xampp\htdocs\TKI\common\dbFunctions.php:12
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(12): PDO->exec('INSERT INTO paa...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(9): insertEntry(Object(PDO), 'paatable', 1, 'paatable 1 iter...', '2012-10-08 16:2...')
+#2 {main}

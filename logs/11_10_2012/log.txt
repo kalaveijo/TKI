@@ -1,0 +1,12 @@
+Thu, 11 Oct 2012 20:31:56 +0300 INSERT INTO projekti(id, data, valid_starttime)
+		VALUES (1, "projektifilu1", "2012-10-11 20:31:56") 
+Thu, 11 Oct 2012 19:45:58 +0200 
+		UPDATE projekti SET
+		valid_endtime = '2012-10-11 19:45:58'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO projekti(data, valid_starttime, id)
+		VALUES ("ei en‰‰ projektifilu", "2012-10-11 19:45:58", 1) 
+Thu, 11 Oct 2012 21:04:41 +0200 INSERT INTO lisainfo(id, data, valid_starttime)
+		VALUES (1, "lis‰info filu1", "2012-10-11 21:04:41") 

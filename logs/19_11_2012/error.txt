@@ -1,0 +1,330 @@
+Mon, 19 Nov 2012 16:22:24 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 4, 'externalstakeho...', 7)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:26 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 5, 'externalstakeho...', 8)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:26 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 5, 'externalstakeho...', 8)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:27 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 6, 'externalstakeho...', 12)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:27 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 6, 'externalstakeho...', 12)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:27 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 7, 'externalstakeho...', 15)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:27 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 7, 'externalstakeho...', 15)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:27 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 7, 'externalstakeho...', 15)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:28 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 8, 'externalstakeho...', 15)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:28 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 8, 'externalstakeho...', 15)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:29 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 9, 'externalstakeho...', 18)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:29 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 9, 'externalstakeho...', 18)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:29 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 9, 'externalstakeho...', 18)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:30 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 9, 'externalstakeho...', 18)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:31 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 10, 'externalstakeho...', 21)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:31 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 10, 'externalstakeho...', 21)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:31 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 10, 'externalstakeho...', 21)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:31 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 10, 'externalstakeho...', 21)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:32 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 11, 'externalstakeho...', 26)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:34 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 12, 'externalstakeho...', 32)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:34 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 12, 'externalstakeho...', 32)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:35 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 13, 'externalstakeho...', 34)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:36 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 13, 'externalstakeho...', 34)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:36 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 13, 'externalstakeho...', 34)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:36 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 13, 'externalstakeho...', 34)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:36 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 14, 'externalstakeho...', 39)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:37 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 14, 'externalstakeho...', 39)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:37 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 14, 'externalstakeho...', 39)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:38 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 15, 'externalstakeho...', 43)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:39 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 16, 'externalstakeho...', 50)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:40 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 17, 'externalstakeho...', 52)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:40 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 17, 'externalstakeho...', 52)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:40 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 17, 'externalstakeho...', 52)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:41 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 18, 'externalstakeho...', 57)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:41 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 18, 'externalstakeho...', 57)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:41 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 18, 'externalstakeho...', 57)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:41 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 18, 'externalstakeho...', 57)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:42 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 19, 'externalstakeho...', 62)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:42 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 19, 'externalstakeho...', 62)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:42 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 19, 'externalstakeho...', 62)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:44 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 21, 'externalstakeho...', 65)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:44 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 21, 'externalstakeho...', 65)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:45 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 22, 'externalstakeho...', 70)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:45 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 22, 'externalstakeho...', 70)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:45 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 22, 'externalstakeho...', 70)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:46 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 22, 'externalstakeho...', 70)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:46 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 22, 'externalstakeho...', 70)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:47 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 23, 'externalstakeho...', 74)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:47 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 23, 'externalstakeho...', 74)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:47 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 23, 'externalstakeho...', 74)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:47 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 23, 'externalstakeho...', 74)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:47 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 23, 'externalstakeho...', 74)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:48 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 24, 'externalstakeho...', 79)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:49 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 24, 'externalstakeho...', 79)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}
+Mon, 19 Nov 2012 16:22:51 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`externalstakeholder_in_project`, CONSTRAINT `externalstakeholder_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:172
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(172): PDO->exec('?????INSERT INT...')
+#1 C:\xampp\htdocs\TKI\tools\populateDatabase.php(46): joinTables(Object(PDO), Object(PDO), 'project', 25, 'externalstakeho...', 84)
+#2 C:\xampp\htdocs\TKI\tools\populateDatabase.php(88): populateDB(Object(PDO), Object(PDO))
+#3 {main}

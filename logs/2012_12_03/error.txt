@@ -1,0 +1,54 @@
+Mon, 03 Dec 2012 16:30:21 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '10', '2012-12-03 16:3...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '10', Array)
+#3 {main}
+Mon, 03 Dec 2012 16:31:09 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:379
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(379): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(103): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '10', '2012-12-03 16:3...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(29): updateEntry(Object(PDO), Object(PDO), 'project', '10', Array)
+#3 {main}
+Mon, 03 Dec 2012 18:04:38 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:391
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(391): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(115): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '1', '2012-12-03 18:0...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '1', Array)
+#3 {main}
+Mon, 03 Dec 2012 18:08:42 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`contract_in_project`, CONSTRAINT `contract_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:391
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(391): PDO->exec('UPDATE?????????...')
+#1 C:\xampp\htdocs\TKI\common\dbFunctions.php(115): updateRelatedJoins(Object(PDO), Object(PDO), 'project', '2', '2012-12-03 18:0...')
+#2 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '2', Array)
+#3 {main}
+Mon, 03 Dec 2012 18:18:49 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO project(id, identifier, diary_number, projectcode, project_name, acr' at line 6' in C:\xampp\htdocs\TKI\common\dbFunctions.php:112
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(112): PDO->exec('????UPDATE proj...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '3', Array)
+#2 {main}
+Mon, 03 Dec 2012 18:22:33 +0200 exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(113): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '3', Array)
+#2 {main}
+Mon, 03 Dec 2012 18:27:38 +0200 exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(113): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '4', Array)
+#2 {main}
+Mon, 03 Dec 2012 18:59:54 +0200 exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(113): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '5', Array)
+#2 {main}
+Mon, 03 Dec 2012 19:12:44 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`project`, CONSTRAINT `project_ibfk_1` FOREIGN KEY (`user_id`, `user_vst`) REFERENCES `enduser` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(113): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '6', Array)
+#2 {main}
+Mon, 03 Dec 2012 19:21:28 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`project`, CONSTRAINT `project_ibfk_1` FOREIGN KEY (`user_id`, `user_vst`) REFERENCES `enduser` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(113): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\update.php(30): updateEntry(Object(PDO), Object(PDO), 'project', '7', Array)
+#2 {main}

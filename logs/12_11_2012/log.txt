@@ -1,0 +1,31 @@
+Mon, 12 Nov 2012 17:13:34 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 1, '2012-11-06 17:17:42', '2012-10-23 17:50:11')
+Mon, 12 Nov 2012 17:16:15 +0100 INSERT INTO contract(id, valid_starttime, role, lname, fname)
+		VALUES (1, "2012-11-12 17:16:15", "homoloordi", "maataistelukone", "tuhannen kilon palopommi") 
+Mon, 12 Nov 2012 17:16:15 +0100 
+		INSERT INTO contract_in_project(project_id, contract_id, project_vst, contract_vst)
+		VALUES (1, 1, '2012-11-06 17:17:42', '2012-11-12 17:16:15')
+Mon, 12 Nov 2012 17:20:36 +0100 INSERT INTO externalstakeholder(id, valid_starttime, country, contactperson_firstname, contactperson_lastname)
+		VALUES (1, "2012-11-12 17:20:36", "WINLAND", "peeeppeli", "vaaangoishd") 
+Mon, 12 Nov 2012 17:20:36 +0100 
+		INSERT INTO externalstakeholder_in_project(project_id, ESH_id, project_vst, ESH_vst)
+		VALUES (1, 1, '2012-11-06 17:17:42', '2012-11-12 17:20:36')
+Mon, 12 Nov 2012 17:22:10 +0100 INSERT INTO funder(id, valid_starttime, funder_name)
+		VALUES (1, "2012-11-12 17:22:10", "TEKES") 
+Mon, 12 Nov 2012 17:22:11 +0100 
+		INSERT INTO funding_in_project(project_id, funder_id, project_vst, funder_vst)
+		VALUES (1, 1, '2012-11-06 17:17:42', '2012-11-12 17:22:10')
+Mon, 12 Nov 2012 17:23:37 +0100 INSERT INTO researchpermit(id, valid_starttime, research_name)
+		VALUES (1, "2012-11-12 17:23:37", "varusmiehen hajoaminen") 
+Mon, 12 Nov 2012 17:23:37 +0100 
+		INSERT INTO researchpermit_in_project(project_id, research_permit_id, project_vst, research_permit_vst)
+		VALUES (1, 1, '2012-11-06 17:17:42', '2012-11-12 17:23:37')
+Mon, 12 Nov 2012 17:24:47 +0100 INSERT INTO document(id, valid_starttime, document_name)
+		VALUES (1, "2012-11-12 17:24:47", "tärkeä dokkari") 
+Mon, 12 Nov 2012 17:24:47 +0100 
+		INSERT INTO document_in_project(project_id, document_id, project_vst, document_vst)
+		VALUES (1, 1, '2012-11-06 17:17:42', '2012-11-12 17:24:47')
+Mon, 12 Nov 2012 19:29:19 +0100 
+		INSERT INTO document_in_project(project_id, document_id, project_vst, document_vst)
+		VALUES (1, 1, '2012-11-06 17:17:42', '2012-11-12 17:24:47')

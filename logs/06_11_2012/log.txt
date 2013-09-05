@@ -1,0 +1,69 @@
+Tue, 06 Nov 2012 17:14:26 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (5, "2012-11-06 17:14:26", "hippiteknologia", "Lauri", "Maarit") 
+Tue, 06 Nov 2012 17:14:26 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 5, '2012-11-05 19:00:15', '2012-11-06 17:14:26')
+Tue, 06 Nov 2012 17:14:29 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (6, "2012-11-06 17:14:29", "hippiteknologia", "Lauri", "Maarit") 
+Tue, 06 Nov 2012 17:14:29 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 6, '2012-11-05 19:00:15', '2012-11-06 17:14:29')
+Tue, 06 Nov 2012 17:14:32 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (7, "2012-11-06 17:14:32", "hippiteknologia", "Lauri", "Maarit") 
+Tue, 06 Nov 2012 17:14:32 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 7, '2012-11-05 19:00:15', '2012-11-06 17:14:32')
+Tue, 06 Nov 2012 17:14:34 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (8, "2012-11-06 17:14:34", "hippiteknologia", "Lauri", "Maarit") 
+Tue, 06 Nov 2012 17:14:34 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 8, '2012-11-05 19:00:15', '2012-11-06 17:14:34')
+Tue, 06 Nov 2012 17:14:37 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (9, "2012-11-06 17:14:37", "hippiteknologia", "Lauri", "Maarit") 
+Tue, 06 Nov 2012 17:14:37 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 9, '2012-11-05 19:00:15', '2012-11-06 17:14:37')
+Tue, 06 Nov 2012 17:14:39 +0100 INSERT INTO projectpartner(id, valid_starttime, degree_program, responsible_person_lname, responsible_person_fname)
+		VALUES (10, "2012-11-06 17:14:39", "hippiteknologia", "Lauri", "Maarit") 
+Tue, 06 Nov 2012 17:14:39 +0100 
+		INSERT INTO projectpartner_in_project(project_id, projectpartner_id, project_vst, projectpartner_vst)
+		VALUES (1, 10, '2012-11-05 19:00:15', '2012-11-06 17:14:39')
+Tue, 06 Nov 2012 17:17:42 +0100 
+		UPDATE project SET
+		valid_endtime = '2012-11-06 17:17:42'
+		WHERE
+		valid_endtime IS NULL AND id=1;
+		
+		INSERT INTO project(identifier, degree_program_related, inspector, metropolia_coordinator, id, diary_number, projectcode, project_name, acronym, focuse_areas, start_day, end_day, inspected_day, funding_application, funding_application_signed_day, deniend_application, targeted_budget, offer, invitation_to_tender, invention_announcement, ethical_estimates_on, general_project_information, valid_starttime, valid_endtime, user_id, user_vst)
+		VALUES ("jeesuskristus", "Örörör", "Matti", "afrikkalainen neekeri", 1, null, null, "Alustaja", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "2012-11-06 17:17:42", null, null, null) 
+Tue, 06 Nov 2012 17:17:42 +0100 UPDATE
+							contract_in_project
+							SET
+							project_vst = '2012-11-06 17:17:42'
+							WHERE
+							project_id = 1;UPDATE
+							document_in_project
+							SET
+							project_vst = '2012-11-06 17:17:42'
+							WHERE
+							project_id = 1;UPDATE
+							externalstakeholder_in_project
+							SET
+							project_vst = '2012-11-06 17:17:42'
+							WHERE
+							project_id = 1;UPDATE
+							funding_in_project
+							SET
+							project_vst = '2012-11-06 17:17:42'
+							WHERE
+							project_id = 1;UPDATE
+							projectpartner_in_project
+							SET
+							project_vst = '2012-11-06 17:17:42'
+							WHERE
+							project_id = 1;UPDATE
+							researchpermit_in_project
+							SET
+							project_vst = '2012-11-06 17:17:42'
+							WHERE
+							project_id = 1;

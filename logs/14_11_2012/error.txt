@@ -1,0 +1,10 @@
+Wed, 14 Nov 2012 18:28:23 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDERY BY id DESC' at line 7' in C:\xampp\htdocs\TKI\common\dbFunctions.php:743
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(743): PDO->query('SELECT?????????...')
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(22): queryProjectList(Object(PDO))
+#2 {main}
+Wed, 14 Nov 2012 18:29:11 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDERY BY project.id DESC' at line 7' in C:\xampp\htdocs\TKI\common\dbFunctions.php:743
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(743): PDO->query('SELECT?????????...')
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(22): queryProjectList(Object(PDO))
+#2 {main}

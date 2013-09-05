@@ -1,0 +1,68 @@
+Mon, 08 Oct 2012 16:37:21 +0200 INSERT INTO paatable2(tieto_id, paska, valid_starttime)
+		VALUES (
+		2,
+		'paatable 1 iteraatio', '2012-10-08 16:37:21'
+		) 
+Mon, 08 Oct 2012 16:41:35 +0200 INSERT INTO paatable2(tieto_id, paska, valid_starttime)
+		VALUES (
+		1,
+		'paatable2 2 iteraatio', '2012-10-08 16:41:35'
+		) 
+Mon, 08 Oct 2012 17:01:45 +0200 
+		UPDATE paatable SET
+		valid_endtime = '2012-10-08 17:01:45'
+		WHERE
+		valid_endtime IS NULL AND tieto_id=1;
+		
+		INSERT INTO paatable(tieto_id, paska, valid_starttime)
+		VALUES (
+		1,
+		'p‰ivitys', '2012-10-08 17:01:45'
+		) 
+		
+Mon, 08 Oct 2012 17:03:35 +0200 
+		UPDATE paatable2 SET
+		valid_endtime = '2012-10-08 17:03:35'
+		WHERE
+		valid_endtime IS NULL AND tieto_id=1;
+		
+		INSERT INTO paatable2(tieto_id, paska, valid_starttime)
+		VALUES (
+		1,
+		'p‰ivitys paatable2', '2012-10-08 17:03:35'
+		) 
+		
+Mon, 08 Oct 2012 21:20:05 +0200 INSERT INTO paatable2(tieto_id, paska, valid_starttime)
+		VALUES (
+		3,
+		'Hei hoo hei', '2012-10-08 21:20:05'
+		) 
+Mon, 08 Oct 2012 21:20:21 +0200 INSERT INTO paatable2(tieto_id, paska, valid_starttime)
+		VALUES (
+		4,
+		'Kekkonen', '2012-10-08 21:20:21'
+		) 
+Mon, 08 Oct 2012 21:21:30 +0200 
+		UPDATE paatable2 SET
+		valid_endtime = '2012-10-08 21:21:30'
+		WHERE
+		valid_endtime IS NULL AND tieto_id=4;
+		
+		INSERT INTO paatable2(tieto_id, paska, valid_starttime)
+		VALUES (
+		4,
+		'Ei en‰‰ kekkonen', '2012-10-08 21:21:30'
+		) 
+		
+Mon, 08 Oct 2012 21:22:42 +0200 
+		UPDATE paatable2 SET
+		valid_endtime = '2012-10-08 21:22:42'
+		WHERE
+		valid_endtime IS NULL AND tieto_id=4;
+		
+		INSERT INTO paatable2(tieto_id, paska, valid_starttime)
+		VALUES (
+		4,
+		'KEKKONEN', '2012-10-08 21:22:42'
+		) 
+		

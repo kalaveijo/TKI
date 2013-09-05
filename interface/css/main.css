@@ -1,0 +1,813 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*-------------------------*/
+/* 
+Name: Metropolia Database Project  
+Date: 16th November 2012
+Version: 1.0
+Author: Pham Ngoc Lan Chi
+*/
+
+/* Reset */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, small, strike, strong, sub, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, 
+filedset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section {
+	display: block;
+}
+
+body { line-height: 1}
+ol, ul, li { list-style: none}
+blockquote, q { quotes: none}
+a {text-decoration: none}
+
+
+table { border-collapse: collapse; border-spacing: 0 }
+
+	
+/* Headings */
+h2 { font-size: 16px;}
+h3 { font-size: 14px;}
+h4 { font-size: 12px;}
+h5 { font-size: 10px;}
+h6 { font-size: 8px;}
+
+h2,h3,h4,h5,h6 { 
+	font-weight: bold;
+	line-height: 16px;
+	margin: 10px 0;
+}
+
+/*--------------------------------*/
+html {
+	background: #ffc928;}
+
+body {
+	background: url(../img/header_bg.png) top repeat-x;
+	margin: 0;
+	padding: 0;
+	}
+	
+.body {
+
+	width: 1000px;
+	margin: 0 auto;}
+	
+header {
+	padding-top: 40px;
+	overflow: hidden;
+}
+
+header figure#logo {
+	width: 350px;
+	float: left;}
+
+header nav#controlPanel {
+	margin-top: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: #FFF;
+	height: 30px;
+	float: right;}
+
+	
+	#controlPanel ul {
+		width: 400px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 13px;
+
+		}
+		
+	#controlPanel li {
+		margin: 8px 10px;
+		padding: 0 2px;
+		float: left;
+		}
+		
+		#controlPanel .user {
+			font-weight:bold;}
+		
+		#controlPanel a:link, #controlPanel a:visited{
+			color: #3a3a3a;}
+			
+		#controlPanel  a:hover , #controlPanel a:active {
+			color: #ffbf00;}
+			
+			#controlPanel li.active a{
+				color: #ffbf00;
+				font-weight: bold}
+		
+
+
+
+
+nav#dashboard {
+	margin: 50px 0 30px 0;
+	float: left;
+	overflow: hidden;
+	padding-left: 10px;
+	}
+
+	nav#dashboard li {
+		float: left;
+		margin: 10px;}
+		
+		nav#dashboard a{
+			color: #3a3a3a;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size: 13px;
+			font-weight: bold;
+			padding: 5px;}
+			
+			nav#dashboard a:hover {
+				background-color:#333;
+				color: #ffc928;
+				
+				
+				border-radius: 5px;
+				-moz-border-raidus: 5px;}
+			
+			nav#dashboard li.active a {
+				color: #FFF;
+				background-color: #333;
+				
+				border-radius: 5px;
+				-moz-border-raidus: 5px;
+				}
+			
+#mainContent {
+	margin: 0px auto 30px auto;
+	clear: both;
+	padding: 10px 20px;
+	overflow: hidden;
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	color: #3a3a3a;
+	
+	background-color:#FFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+}
+
+nav#headingNav {
+	overflow: hidden;
+	clear : both;
+	color: #3a3a3a;
+	}
+
+	nav#headingNav li{
+		float: left;
+		margin: 10px;}
+		
+		nav#headingNav a:link, nav#headingNav a:visited {
+			color: #333;
+			text-decoration:none;}
+			
+		nav#headingNav a:hover, nav#headingNav:active {
+			text-decoration: none;
+			color: #F90;}
+			
+			nav#headingNav li.active a{
+				font-style: italic;
+				color: #ffbf00}
+		
+/*---------------Home Page Table -------------------------*/
+	
+table {
+	overflow: hidden;
+	line-height: 20px;
+	margin-top: 10px;	
+	}
+	
+	table#mainTable {
+		clear:both}
+	
+	th {
+		font-weight: bold;
+		padding: 10px 0;
+		font-size: 14px;}
+	
+	tr {
+		border-bottom: solid 1px #DFDFDF;
+		padding : 20px;}
+	
+	
+			tr.hentry {
+						border-bottom: 1px solid #eee;
+						padding: 20px 10px 20px 0;
+						}
+						
+						.hentry:hover {
+							background:#000;
+							color: #ffc928;}
+							
+							.hentry:hover .projectName a{
+								color: #ffc928}
+								
+							.projectName a:link, .projectName a:active{
+								color: #3a3a3a;}
+								
+							.projectName a:visited{
+								color:#666;}
+	.no {
+		width: 30px;
+		text-align: center;
+		color: #a8a8a8;}
+		
+	.projectName {
+		width: 300px;
+		padding: 10px 10px;
+		font-weight: bold;
+		color: #333333;}
+		
+	.diary {
+		width: 100px;
+		padding-left: 10px;
+		color: #a8a8a8;}
+		
+	.identifier {
+		width: 200px;
+		text-align: right;
+		font-style: italic;}
+		
+	.timeCreated {
+		width: 150px;
+		text-align: center;
+		color: #a8a8a8;
+		font-style: italic;}
+	
+	.timeModified {
+		width: 150px;
+		text-align:center;
+		color: #a8a8a8;
+		font-style:italic;}
+	
+	.status{
+		width: 70px;
+		text-align:center;
+		font-weight: bold;}
+
+/*---------------pagination-----------*/
+
+nav#Pagination {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	float: left; 
+	}
+	
+	nav#Pagination a {
+		padding: 5px;}
+		
+		nav#Pagination a:link, nav#Pagination a:active {
+			color: #333;}
+			
+		nav#Pagination a:hover, nav#Pagination a:visited {
+			color: #666;}
+			
+			nav#Pagination a.active {
+				color: #ffcf00;}
+		
+.pagination-amount {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	float: right;}
+	
+	
+.button, .button:visited {
+	background: #222 url(../img/overlay.png) repeat-x;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+
+   
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+    cursor: pointer
+}
+
+.medium.button, .medium.button:visited      { font-size: 13px;
+                                              line-height: 1;
+                                              text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+                                              }
+
+.yellow.button, .yellow.button:visited  { background-color: #ffb515; }
+    .yellow.button:hover                { background-color: #fc9200; }
+	
+.green.button, .green.button:visited    { background-color: #91bd09; }
+    .green.button:hover                     { background-color: #749a02; }
+
+.red.button, .red.button:visited        { background-color: #e62727; }
+    .red.button:hover                   { background-color: #cf2525; }
+
+
+/*-----------------Project Page----------------*/
+
+#projectPage{
+	overflow:hidden;
+	clear:both;}
+	
+
+		/*---Project tabs---*/
+		
+		nav#projectTabs {
+			overflow: hidden;
+			float: right;
+			margin-right:10px;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:12px;
+			font-weight: 400;}
+		
+		nav#projectTabs li{
+			float: left;
+			padding: 10px 10px 30px 10px;
+			margin-left: 20px;
+			margin-bottom: -20px;
+		
+			color: #ffc928;
+			background-color: #333;
+			border-radius: 10px;
+			-moz-border-radius: 10px;}
+		
+		#projectTabs a:link, #projectTabs a:active {
+			color: #ffc928;}
+		
+		#projectTabs a:visited {
+			color: #ffc928;
+			}
+			
+					
+		#projectTabs a:hover{
+			color: #fff;}
+			
+			#projectTabs li.active{
+				background-color: #fff;
+				}
+							
+			#projectTabs li.active a{
+				color: #333;}
+
+/*-----breadcrumbs----*/
+nav.breadcrumbs {
+	margin:20px 0;
+	overflow:hidden;}
+	
+nav.breadcrumbs li{
+	float: left;
+	overflow: hidden;
+	padding: 0 5px
+	}	
+	
+	nav.breadcrumbs li a {
+		
+		color: #999;}	
+		
+		nav.breadcrumbs li a:hover {
+		color: #ffc928;}
+	
+		/*--- project article ---*/
+		
+article {
+	clear: both;
+	overflow: hidden;
+	line-height: 20px;
+	margin: 20px 0;}
+	
+	#projectArticle{
+		padding-left: 5px}
+	
+		#projectTables , .modifiedTable {
+			float: left;
+			overflow: hidden;}
+			
+			#projectTables table{
+				margin-bottom: 20px;
+				float: left;
+				}
+				
+				#projectTables tr.break {
+					border: none;
+					 }
+					
+				#projectTables td {
+					
+					padding: 10px 5px}
+				
+				
+				
+				table.generalTable{
+					width:350px;
+					margin-right:20px;
+					}
+				
+				table.fundingTable{
+					width: 330px;
+					margin-right:20px;
+					}
+					
+				table.timeTable{
+					width:240px;}
+					
+					
+					.overviewTitle {
+						font-weight: bold;}
+						
+						/*-------project Buttons------*/
+						#buttons {
+							float:right;
+							overflow:hidden;
+							margin: 20px 0;
+							}
+							
+							#buttons a{
+								margin: 0 5px}
+								
+/*------------------Document Tab --------------------*/
+table#documentTable {
+	width: 960px;}
+	
+	#leftDocumentTable{
+		width: 200px;
+		text-align: left;}
+	
+	#rightDocumentTable{
+		width: 760px;}
+		
+		.checkbox {
+			width: 20px}
+			
+		.docIcon {
+			width: 40px;}
+		
+		.docName {
+			text-align: left;
+			width: 300px;}
+			
+		.docModifier {
+			text-align:left;
+			width: 200px;}
+			
+		.docModifiedTime {
+			width: 200px;}
+		
+/*--------------Time Archived Tab -------------*/
+
+.modifiedVersion {
+	overflow:hidden;
+	clear:both;
+	margin: 0 0 30px 0;
+	border-top:dotted #999 1px;
+	}
+
+	
+.timeArchivedInfo h4{
+	color: #Ff928;
+	}
+	
+/*-----------PartnerTab----------------------*/
+#partnersTable {
+	width: 960px}
+	
+	#projectPartners {
+		width: 600px;}
+		
+	#partnersList {
+		width: 360px;}
+	
+		.partnersName {
+			width: 160px;}
+/*-----------------Footer------------------*/
+footer {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:600;
+	width: 350px;
+	clear: both;
+	overflow:hidden;
+	margin: 50px auto;}
+	
+	

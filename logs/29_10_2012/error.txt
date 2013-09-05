@@ -1,0 +1,12 @@
+Mon, 29 Oct 2012 19:02:46 +0100 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''COLUMNS'
+						WHERE
+						TABLE_NAME = 'project'' at line 4' in C:\xampp\htdocs\TKI\common\dbFunctions.php:340
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(340): PDO->query('SELECT????????*...')
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(18): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), 'project', 1, Array)
+#2 {main}
+Mon, 29 Oct 2012 19:03:45 +0100 exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tki.columns' doesn't exist' in C:\xampp\htdocs\TKI\common\dbFunctions.php:340
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(340): PDO->query('SELECT????????*...')
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(18): selectWhichColumnsToUpdate(Object(PDO), Object(PDO), 'project', 1, Array)
+#2 {main}

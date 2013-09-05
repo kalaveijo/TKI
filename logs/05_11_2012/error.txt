@@ -1,0 +1,5 @@
+Mon, 05 Nov 2012 18:54:26 +0100 exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tki`.`projectpartner_in_project`, CONSTRAINT `projectpartner_in_project_ibfk_1` FOREIGN KEY (`project_id`, `project_vst`) REFERENCES `project` (`id`, `valid_starttime`))' in C:\xampp\htdocs\TKI\common\dbFunctions.php:165
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(165): PDO->exec('????INSERT INTO...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(27): joinTables(Object(PDO), Object(PDO), 'project', 1, 'projectpartner', 2)
+#2 {main}

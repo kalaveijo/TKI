@@ -1,0 +1,43 @@
+Sat, 20 Oct 2012 14:32:45 +0200 INSERT INTO lisainfo(id, data, valid_starttime)
+		VALUES (2, "herp some derp", "2012-10-20 14:32:45") 
+Sat, 20 Oct 2012 14:33:28 +0200 INSERT INTO lisainfo(id, data, valid_starttime)
+		VALUES (3, "lisemp‰‰infoa", "2012-10-20 14:33:28") 
+Sat, 20 Oct 2012 14:33:55 +0200 INSERT INTO projekti(id, data, valid_starttime)
+		VALUES (2, "lis‰‰ roweja projektiin", "2012-10-20 14:33:55") 
+Sat, 20 Oct 2012 14:34:08 +0200 INSERT INTO projekti(id, data, valid_starttime)
+		VALUES (3, "moarboar wants moar", "2012-10-20 14:34:08") 
+Sat, 20 Oct 2012 14:35:49 +0200 
+		UPDATE projekti SET
+		valid_endtime = '2012-10-20 14:35:49'
+		WHERE
+		valid_endtime IS NULL AND id=2;
+		
+		INSERT INTO projekti(data, valid_starttime, id)
+		VALUES ("p‰ivitys", "2012-10-20 14:35:49", 2) 
+Sat, 20 Oct 2012 14:36:13 +0200 
+		UPDATE lisainfo SET
+		valid_endtime = '2012-10-20 14:36:13'
+		WHERE
+		valid_endtime IS NULL AND id=3;
+		
+		INSERT INTO lisainfo(data, valid_starttime, id)
+		VALUES ("kekekegohoohlol", "2012-10-20 14:36:13", 3) 
+Sat, 20 Oct 2012 14:42:14 +0200 
+		INSERT INTO joitable(tieto_1, tieto_2, valid_starttime_1, valid_starttime_2)
+		VALUES (2, 3, '2012-10-20 14:35:49', '2012-10-20 14:36:13')
+Sat, 20 Oct 2012 14:45:57 +0200 
+		UPDATE lisainfo SET
+		valid_endtime = '2012-10-20 14:45:57'
+		WHERE
+		valid_endtime IS NULL AND id=3;
+		
+		INSERT INTO lisainfo(data, valid_starttime, id)
+		VALUES ("testing join table update", "2012-10-20 14:45:57", 3) 
+Sat, 20 Oct 2012 15:05:55 +0200 UPDATE 
+					joitable
+					SET 
+					valid_starttime_1 = '2012-10-20 14:35:49',
+					valid_starttime_2 = '2012-10-20 14:45:57'
+					WHERE
+					tieto_1 = 2 AND
+					tieto_2 = 3

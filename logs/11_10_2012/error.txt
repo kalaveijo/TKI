@@ -1,0 +1,53 @@
+Thu, 11 Oct 2012 18:26:47 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' id, data, valid_starttime)
+		VALUES (, 1, projektifilu1, 2012-10-11 18:26:47)' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:34
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(34): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(12): insertEntry(Object(PDO), 'projekti', Array, Array)
+#2 {main}
+Thu, 11 Oct 2012 18:30:13 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' id, data, valid_starttime)
+		VALUES (, 1, projektifilu1, 2012-10-11 18:30:13)' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(35): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(12): insertEntry(Object(PDO), 'projekti', Array, Array)
+#2 {main}
+Thu, 11 Oct 2012 18:33:52 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' id, data, valid_starttime)
+		VALUES (, 1, projektifilu1, 2012-10-11 18:33:52)' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(35): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(12): insertEntry(Object(PDO), 'projekti', Array, Array)
+#2 {main}
+Thu, 11 Oct 2012 18:36:47 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' id, data, valid_starttime)
+		VALUES (, 1, projektifilu1, 2012-10-11 18:36:47)' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(35): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(12): insertEntry(Object(PDO), 'projekti', Array, Array)
+#2 {main}
+Thu, 11 Oct 2012 18:43:49 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '18:43:49)' at line 2' in C:\xampp\htdocs\TKI\common\dbFunctions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(35): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(12): insertEntry(Object(PDO), 'projekti', Array, Array)
+#2 {main}
+Thu, 11 Oct 2012 19:48:22 +0300 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''id', 'data', 'valid_starttime')
+		VALUES ('1', 'projektifilu1', '2012-10-11 19' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(35): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(12): insertEntry(Object(PDO), 'projekti', Array, Array)
+#2 {main}
+Thu, 11 Oct 2012 19:27:02 +0200 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"", "", "")
+		VALUES (, "", "")' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(61): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(15): insertEntry(Object(PDO), 'projekti', Array)
+#2 {main}
+Thu, 11 Oct 2012 20:28:02 +0300 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"", "", "")
+		VALUES (, "", "")' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(61): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(15): insertEntry(Object(PDO), 'projekti', Array)
+#2 {main}
+Thu, 11 Oct 2012 20:28:58 +0300 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"id", "data", "valid_starttime")
+		VALUES (1, "projektifilu1", "2012-10-11 20:2' at line 1' in C:\xampp\htdocs\TKI\common\dbFunctions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(61): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\TKI\databaseFunctions\insert.php(15): insertEntry(Object(PDO), 'projekti', Array)
+#2 {main}

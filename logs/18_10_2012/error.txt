@@ -1,0 +1,15 @@
+Thu, 18 Oct 2012 20:40:51 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in C:\xampp\htdocs\TKI\common\dbFunctions.php:203
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(203): PDOStatement->fetch()
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(10): selectCorrectJointable(Object(PDO), 'projekti', 'lisainfo')
+#2 {main}
+Thu, 18 Oct 2012 20:43:40 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in C:\xampp\htdocs\TKI\common\dbFunctions.php:203
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(203): PDOStatement->fetch()
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(10): selectCorrectJointable(Object(PDO), 'projekti', 'lisainfo')
+#2 {main}
+Thu, 18 Oct 2012 20:48:36 +0200 exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in C:\xampp\htdocs\TKI\common\dbFunctions.php:203
+Stack trace:
+#0 C:\xampp\htdocs\TKI\common\dbFunctions.php(203): PDOStatement->fetch()
+#1 C:\xampp\htdocs\TKI\testfiles\functiontest.php(10): selectCorrectJointable(Object(PDO), 'projekti', 'lisainfo')
+#2 {main}
